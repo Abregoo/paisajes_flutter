@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:paisajesplayerapp/pages/album_page.dart';
+import 'package:paisajesplayerapp/pages/cancion_page.dart';
 import 'package:paisajesplayerapp/pages/home_page.dart';
 
 class MainApp extends StatefulWidget {
@@ -87,24 +89,8 @@ class _MainAppState extends State<MainApp> {
       index: activeTab,
       children: [
         HomePage(),
-        Container(
-          decoration: fondo(),
-          child: Center(
-              child: Text(
-            "Buscar",
-            style: TextStyle(
-                fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
-          )),
-        ),
-        Container(
-          decoration: fondo(),
-          child: Center(
-              child: Text(
-            "Favoritas",
-            style: TextStyle(
-                fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
-          )),
-        ),
+        CancionPage(),
+        AlbumPage(),
         Container(
           decoration: fondo(),
           child: Center(
