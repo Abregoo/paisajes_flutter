@@ -161,210 +161,210 @@ const List lstAlb_noct = [
 //..............................................
 const List lstAlb1C1 = [
   {
-    "title": "Song1",
+    "title": "Faded",
     "autor": "Alan Walker",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:21"
   },
   {
-    "title": "Song2",
+    "title": "Alone",
     "autor": "Alan Walker",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "5:03"
   },
   {
-    "title": "Song3",
+    "title": "On My Way",
     "autor": "Alan Walker",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "2:34"
   },
   {
-    "title": "Song4",
+    "title": "Darkside",
     "autor": "Alan Walker",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:11"
   },
 ];
 
 const List lstAlb2C1 = [
   {
-    "title": "Song1",
-    "autor": "Alan Walker",
+    "title": "Roar",
+    "autor": "Katy Perry",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:22"
   },
   {
-    "title": "Song2",
-    "autor": "Alan Walker",
+    "title": "Firework",
+    "autor": "Katy Perry",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:12"
   },
   {
-    "title": "Song3",
-    "autor": "Alan Walker",
+    "title": "Electric",
+    "autor": "Katy Perry",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:21"
   },
   {
-    "title": "Song4",
-    "autor": "Alan Walker",
+    "title": "Smile",
+    "autor": "Katy Perry",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "5:34"
   },
 ];
 
 const List lstAlb1C2 = [
   {
-    "title": "Song1",
-    "autor": "Alan Walker",
+    "title": "Yonaguni",
+    "autor": "Bad Bunny",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:15"
   },
   {
-    "title": "Song2",
-    "autor": "Alan Walker",
+    "title": "El Apagón",
+    "autor": "Bad Bunny",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:12"
   },
   {
-    "title": "Song3",
-    "autor": "Alan Walker",
+    "title": "Tití Me Preguntó",
+    "autor": "Bad Bunny",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "5:15"
   },
   {
-    "title": "Song4",
-    "autor": "Alan Walker",
+    "title": "Callaíta",
+    "autor": "Bad Bunny",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "2:53"
   },
 ];
 
 const List lstAlb2C2 = [
   {
-    "title": "Song1",
-    "autor": "Alan Walker",
+    "title": "Salío El Sol",
+    "autor": "Don Omar",
+    "songs": "url",
+    "duration": "2:04"
+  },
+  {
+    "title": "Sincero",
+    "autor": "Don Omar",
+    "songs": "url",
+    "duration": "2:03"
+  },
+  {
+    "title": "Danza Kuduro",
+    "autor": "Don Omar",
     "songs": "url",
     "duration": "1:21"
   },
   {
-    "title": "Song2",
-    "autor": "Alan Walker",
+    "title": "Angelio",
+    "autor": "Don Omar",
     "songs": "url",
-    "duration": "1:21"
-  },
-  {
-    "title": "Song3",
-    "autor": "Alan Walker",
-    "songs": "url",
-    "duration": "1:21"
-  },
-  {
-    "title": "Song4",
-    "autor": "Alan Walker",
-    "songs": "url",
-    "duration": "1:21"
+    "duration": "4:20"
   },
 ];
 
 const List lstAlb1C3 = [
   {
-    "title": "Song1",
-    "autor": "Alan Walker",
+    "title": "Yellow",
+    "autor": "Coldplay",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:45"
   },
   {
-    "title": "Song2",
-    "autor": "Alan Walker",
+    "title": "Fix You",
+    "autor": "Coldplay",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:51"
   },
   {
-    "title": "Song3",
-    "autor": "Alan Walker",
+    "title": "Clocks",
+    "autor": "Coldplay",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "6:05"
   },
   {
-    "title": "Song4",
-    "autor": "Alan Walker",
+    "title": "Let Somebody Go",
+    "autor": "Coldplay",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:09"
   },
 ];
 
 const List lstAlb2C3 = [
   {
-    "title": "Song1",
-    "autor": "Alan Walker",
+    "title": "Shivers",
+    "autor": "Ed Sheeran",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:11"
   },
   {
-    "title": "Song2",
-    "autor": "Alan Walker",
+    "title": "Bad Habits",
+    "autor": "Ed Sheeran",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:23"
   },
   {
-    "title": "Song3",
-    "autor": "Alan Walker",
+    "title": "Overpass",
+    "autor": "Ed Sheeran",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:34"
   },
   {
-    "title": "Song4",
-    "autor": "Alan Walker",
+    "title": "Perfect",
+    "autor": "Ed Sheeran",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:20"
   },
 ];
 
 const List lstAlb1C4 = [
   {
-    "title": "Song1",
-    "autor": "Alan Walker",
+    "title": "Te He Prometido",
+    "autor": "Leo Dan",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:34"
   },
   {
-    "title": "Song2",
-    "autor": "Alan Walker",
+    "title": "Yo Sé Que No Es Feliz",
+    "autor": "Leo Dan",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "2:34"
   },
   {
-    "title": "Song3",
-    "autor": "Alan Walker",
+    "title": "Estoy Pensando En Ella",
+    "autor": "Leo Dan",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:46"
   },
   {
-    "title": "Song4",
-    "autor": "Alan Walker",
+    "title": "Esa Pared",
+    "autor": "Leo Dan",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:34"
   },
 ];
 
 const List lstAlb2C4 = [
   {
-    "title": "Song1",
-    "autor": "Alan Walker",
+    "title": "Necesito Decirte",
+    "autor": "Conjunto Primavera",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:22"
   },
   {"title": "Song2", "autor": "Citrix", "songs": "url", "duration": "1:21"},
   {
-    "title": "Song3",
-    "autor": "Alan Walker",
+    "title": "Hoy Como Ayer",
+    "autor": "Conjunto Primavera",
     "songs": "url",
     "duration": "1:21"
   },
   {
-    "title": "Song4",
-    "autor": "Alan Walker",
+    "title": "Vuelve Conmigo",
+    "autor": "Conjunto Primavera",
     "songs": "url",
     "duration": "1:21"
   },
@@ -372,54 +372,54 @@ const List lstAlb2C4 = [
 
 const List lstAlb1C5 = [
   {
-    "title": "Song1",
-    "autor": "Alan Walker",
+    "title": "Despechá",
+    "autor": "Rosalía",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:45"
   },
   {
-    "title": "Song2",
-    "autor": "Alan Walker",
+    "title": "Con Altura",
+    "autor": "Rosalía ft J Balvin",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "2:18"
   },
   {
-    "title": "Song3",
-    "autor": "Alan Walker",
+    "title": "La Noche de Anoche",
+    "autor": "Rosalía",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:34"
   },
   {
     "title": "Song4",
-    "autor": "Alan Walker",
+    "autor": "Rosalía",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:46"
   },
 ];
 
 const List lstAlb2C5 = [
-  {
-    "title": "Song1",
-    "autor": "Alan Walker",
+   {
+    "title": "Yonaguni",
+    "autor": "Bad Bunny",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "3:15"
   },
   {
-    "title": "Song2",
-    "autor": "Alan Walker",
+    "title": "El Apagón",
+    "autor": "Bad Bunny",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "4:12"
   },
   {
-    "title": "Song3",
-    "autor": "Alan Walker",
+    "title": "Tití Me Preguntó",
+    "autor": "Bad Bunny",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "5:15"
   },
   {
-    "title": "Song4",
-    "autor": "Alan Walker",
+    "title": "Callaíta",
+    "autor": "Bad Bunny",
     "songs": "url",
-    "duration": "1:21"
+    "duration": "2:53"
   },
 ];

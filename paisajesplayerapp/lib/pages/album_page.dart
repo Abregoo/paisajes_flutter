@@ -6,7 +6,8 @@ import 'package:paisajesplayerapp/router/app_routes.dart';
 
 class AlbumPage extends StatelessWidget {
   final Datos datos;
-  AlbumPage({super.key, required this.datos});
+  final String album;
+  AlbumPage({super.key, required this.datos, required this.album});
 
   int menuactivo = 0;
 
@@ -53,7 +54,7 @@ class AlbumPage extends StatelessWidget {
           separador(20),
           portadaCategoria(),
           separador(10),
-          titulos("Album: Nombre del Album"),
+          titulos("Album: "+album),
           separador(20),
           lista(),
           separador(90),

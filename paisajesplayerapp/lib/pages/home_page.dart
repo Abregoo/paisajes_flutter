@@ -15,6 +15,8 @@ class _HomePageState extends State<HomePage> {
   int menuactivo = 0;
   String urlimg = "assets/portadac1.jpg";
   List s = [];
+  String album ="";
+  int indexAlbum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -199,7 +201,7 @@ class _HomePageState extends State<HomePage> {
               child: Container(
                 child: GestureDetector(
                   onTap: () {
-                    Navigator.pushNamed(context, menuOptions[0].route);
+                    Navigator.pushNamed(context, menuOptions[1].route);
                   },
                   child: Column(
                     children: [
@@ -247,12 +249,15 @@ class _HomePageState extends State<HomePage> {
     }
     if (menuactivo == 1) {
       lst = lstAlb_otonio;
+
     }
     if (menuactivo == 2) {
       lst = lstAlb_prim;
+
     }
     if (menuactivo == 3) {
       lst = lstAlb_vera;
+
     }
     if (menuactivo == 4) {
       lst = lstAlb_noct;
@@ -269,6 +274,7 @@ class _HomePageState extends State<HomePage> {
               child: Container(
                 child: GestureDetector(
                   onTap: () {
+                    indexAlbum = index;
                     if (menuactivo == 0) {
                       if (index == 0) {
                         s = lstAlb1C1;
@@ -312,7 +318,7 @@ class _HomePageState extends State<HomePage> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => AlbumPage(datos: Datos(s))));
+                            builder: (context) => AlbumPage(datos: Datos(s), album: lst[indexAlbum]['title'] )));
                   },
                   child: Column(
                     children: [
