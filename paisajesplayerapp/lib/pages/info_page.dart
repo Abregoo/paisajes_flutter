@@ -12,7 +12,7 @@ class _CardInfoState extends State<CardInfo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Info Card"),
+        title: Text("Canciones"),
       ),
     );
   }

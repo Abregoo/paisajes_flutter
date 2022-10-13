@@ -157,3 +157,269 @@ const List lstAlb_noct = [
     "title": "Moon Yellow",
   },
 ];
+
+//..............................................
+const List lstAlb1C1 = [
+  {
+    "title": "Song1",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song2",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song3",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song4",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+];
+
+const List lstAlb2C1 = [
+  {
+    "title": "Song1",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song2",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song3",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song4",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+];
+
+const List lstAlb1C2 = [
+  {
+    "title": "Song1",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song2",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song3",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song4",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+];
+
+const List lstAlb2C2 = [
+  {
+    "title": "Song1",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song2",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song3",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song4",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+];
+
+const List lstAlb1C3 = [
+  {
+    "title": "Song1",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song2",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song3",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song4",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+];
+
+const List lstAlb2C3 = [
+  {
+    "title": "Song1",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song2",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song3",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song4",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+];
+
+const List lstAlb1C4 = [
+  {
+    "title": "Song1",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song2",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song3",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song4",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+];
+
+const List lstAlb2C4 = [
+  {
+    "title": "Song1",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {"title": "Song2", "autor": "Citrix", "songs": "url", "duration": "1:21"},
+  {
+    "title": "Song3",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song4",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+];
+
+const List lstAlb1C5 = [
+  {
+    "title": "Song1",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song2",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song3",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song4",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+];
+
+const List lstAlb2C5 = [
+  {
+    "title": "Song1",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song2",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song3",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+  {
+    "title": "Song4",
+    "autor": "Alan Walker",
+    "songs": "url",
+    "duration": "1:21"
+  },
+];

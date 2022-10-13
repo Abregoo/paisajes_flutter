@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:paisajesplayerapp/pages/main_app.dart';
+import 'package:paisajesplayerapp/router/app_routes.dart';
 
 void main() {
-  runApp(const MaterialApp(
+  runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home:MainApp(),
+    home: const MainApp(),
+    initialRoute: AppRoutes.initialRoute,
+    routes: AppRoutes.getAppRoutes(),
+    onGenerateRoute: AppRoutes.onGenerateRoute,
   ));
 }
