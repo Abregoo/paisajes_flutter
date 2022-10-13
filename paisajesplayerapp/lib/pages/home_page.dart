@@ -1,8 +1,7 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:paisajesplayerapp/json/musica_json.dart';
+import 'package:paisajesplayerapp/pages/album_page.dart';
 import 'package:paisajesplayerapp/pages/datos.dart';
-import 'package:paisajesplayerapp/pages/lista_page.dart';
 import 'package:paisajesplayerapp/router/app_routes.dart';
 
 class HomePage extends StatefulWidget {
@@ -313,7 +312,7 @@ class _HomePageState extends State<HomePage> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => ListaAlbum(datos: Datos(s))));
+                            builder: (context) => AlbumPage(datos: Datos(s))));
                   },
                   child: Column(
                     children: [

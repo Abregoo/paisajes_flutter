@@ -13,7 +13,13 @@ class ListaAlbum extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Listview Tipo 1'),
         ),
-        body: ListView.separated(
+        body: lista()
+        
+        );
+  }
+
+  lista(){
+    return ListView.separated(
           itemCount: datos.songsSend.length,
           itemBuilder: (context, i) => ListTile(
             title: Text(datos.songsSend[i]['title'] +
@@ -26,6 +32,6 @@ class ListaAlbum extends StatelessWidget {
             onTap: () {},
           ),
           separatorBuilder: (_, __) => const Divider(),
-        ));
+        );
   }
 }

@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:paisajesplayerapp/json/musica_json.dart';
+import 'package:paisajesplayerapp/pages/datos.dart';
+import 'package:paisajesplayerapp/pages/lista_page.dart';
+import 'package:paisajesplayerapp/router/app_routes.dart';
 
-class AlbumPage extends StatefulWidget {
-  const AlbumPage({super.key});
+class AlbumPage extends StatelessWidget {
+  final Datos datos;
+  AlbumPage({super.key, required this.datos});
 
-  @override
-  State<AlbumPage> createState() => _HomePageState();
-}
-
-class _HomePageState extends State<AlbumPage> {
   int menuactivo = 0;
+
   String urlimg = "assets/portadac1.jpg";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -54,14 +55,46 @@ class _HomePageState extends State<AlbumPage> {
           separador(10),
           titulos("Album: Nombre del Album"),
           separador(20),
-          slideAlbums(),
+          lista(),
           separador(90),
         ]),
       ),
     );
   }
 
-  
+  lista() {
+    final menuOptions = AppRoutes.menuOptions;
+    return Container(
+      child: ListView.separated(
+        itemCount: datos.songsSend.length,
+        itemBuilder: (context, i) => ListTile(
+          title: Text(
+            datos.songsSend[i]['title'] + ' - ' + datos.songsSend[i]['autor'],
+            style: TextStyle(
+                color: Colors.white,
+                fontFamily: 'JosefinSans',
+                fontSize: 14,
+                fontWeight: FontWeight.bold),
+          ),
+          trailing: const Icon(
+            Icons.music_video_rounded,
+            color: Color.fromARGB(255, 101, 120, 224),
+          ),
+          onTap: () {
+            Navigator.pushNamed(context, menuOptions[1].route);
+          },
+        ),
+        separatorBuilder: (_, __) => const Divider(),
+      ),
+      margin: EdgeInsets.only(left: 25, right: 25),
+      width: 400,
+      height: 400,
+      decoration: BoxDecoration(
+          color: Color.fromARGB(122, 0, 0, 0),
+          borderRadius: BorderRadius.circular(15)),
+    );
+  }
+
   separador(double number) {
     return SizedBox(
       height: number,
@@ -107,7 +140,7 @@ class _HomePageState extends State<AlbumPage> {
         child: Text(
           titulo,
           style: TextStyle(
-            color: Colors.white,
+              color: Colors.white,
               fontFamily: 'Pacifico',
               fontSize: 20,
               fontWeight: FontWeight.bold),
@@ -121,8 +154,6 @@ class _HomePageState extends State<AlbumPage> {
           borderRadius: BorderRadius.circular(15)),
     );
   }
-
-  
 
   slideAlbums() {
     List lst = [];

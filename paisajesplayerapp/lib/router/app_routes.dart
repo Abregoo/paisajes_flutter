@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:paisajesplayerapp/models/menu_option.dart';
+import 'package:paisajesplayerapp/pages/cancion_page.dart';
 import 'package:paisajesplayerapp/pages/home_page.dart';
 import 'package:paisajesplayerapp/pages/info_page.dart';
 import 'package:paisajesplayerapp/pages/lista_page.dart';
@@ -9,7 +10,9 @@ class AppRoutes {
 
   static final menuOptions = <MenuOption>[
     MenuOption(
-        route: 'infocard', name: 'Informacion', screen: const CardInfo()),
+        route: 'infocard', name: 'Informacion', screen: const CardInfo(),),
+    MenuOption(
+        route: 'cancion', name: 'Cancion', screen: const CancionPage())
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {

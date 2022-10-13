@@ -90,7 +90,15 @@ class _MainAppState extends State<MainApp> {
       children: [
         HomePage(),
         CancionPage(),
-        AlbumPage(),
+        Container(
+          decoration: fondo(),
+          child: Center(
+              child: Text(
+            "Perfil",
+            style: TextStyle(
+                fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
+          )),
+        ),
         Container(
           decoration: fondo(),
           child: Center(
