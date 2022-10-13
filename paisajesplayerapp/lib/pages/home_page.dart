@@ -1,5 +1,9 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:paisajesplayerapp/json/musica_json.dart';
+import 'package:paisajesplayerapp/pages/datos.dart';
+import 'package:paisajesplayerapp/pages/lista_page.dart';
+import 'package:paisajesplayerapp/router/app_routes.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -11,6 +15,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int menuactivo = 0;
   String urlimg = "assets/portadac1.jpg";
+  List s = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -182,6 +187,8 @@ class _HomePageState extends State<HomePage> {
     if (menuactivo == 3) lst = lstT_vera;
     if (menuactivo == 4) lst = lstT_noct;
 
+    final menuOptions = AppRoutes.menuOptions;
+
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Padding(
@@ -192,7 +199,9 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.only(right: 30),
               child: Container(
                 child: GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushNamed(context, menuOptions[0].route);
+                  },
                   child: Column(
                     children: [
                       Container(
@@ -234,11 +243,21 @@ class _HomePageState extends State<HomePage> {
 
   slideAlbums() {
     List lst = [];
-    if (menuactivo == 0) lst = lstAlb_ilust;
-    if (menuactivo == 1) lst = lstAlb_otonio;
-    if (menuactivo == 2) lst = lstAlb_prim;
-    if (menuactivo == 3) lst = lstAlb_vera;
-    if (menuactivo == 4) lst = lstAlb_noct;
+    if (menuactivo == 0) {
+      lst = lstAlb_ilust;
+    }
+    if (menuactivo == 1) {
+      lst = lstAlb_otonio;
+    }
+    if (menuactivo == 2) {
+      lst = lstAlb_prim;
+    }
+    if (menuactivo == 3) {
+      lst = lstAlb_vera;
+    }
+    if (menuactivo == 4) {
+      lst = lstAlb_noct;
+    }
 
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
@@ -250,7 +269,52 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.only(right: 30),
               child: Container(
                 child: GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    if (menuactivo == 0) {
+                      if (index == 0) {
+                        s = lstAlb1C1;
+                      }
+                      if (index == 1) {
+                        s = lstAlb2C1;
+                      }
+                    }
+                    if (menuactivo == 1) {
+                      if (index == 0) {
+                        s = lstAlb1C2;
+                      }
+                      if (index == 1) {
+                        s = lstAlb2C2;
+                      }
+                    }
+                    if (menuactivo == 2) {
+                      if (index == 0) {
+                        s = lstAlb1C3;
+                      }
+                      if (index == 1) {
+                        s = lstAlb2C3;
+                      }
+                    }
+                    if (menuactivo == 3) {
+                      if (index == 0) {
+                        s = lstAlb1C4;
+                      }
+                      if (index == 1) {
+                        s = lstAlb2C4;
+                      }
+                    }
+                    if (menuactivo == 4) {
+                      if (index == 0) {
+                        s = lstAlb1C5;
+                      }
+                      if (index == 1) {
+                        s = lstAlb2C5;
+                      }
+                    }
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => ListaAlbum(datos: Datos(s))));
+                  },
                   child: Column(
                     children: [
                       Container(
