@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              "Música",
+              "Season Music",
               style: TextStyle(
                   fontFamily: 'Pacifico',
                   fontSize: 20,
@@ -134,7 +134,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   BoxDecoration fondo() {
-    return BoxDecoration(
+    return const BoxDecoration(
         gradient: LinearGradient(
       begin: Alignment.topRight,
       end: Alignment.bottomLeft,
@@ -200,21 +200,23 @@ class _HomePageState extends State<HomePage> {
                         height: 120,
                         decoration: BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage(lst[index]['img']), fit: BoxFit.fill),
-                           borderRadius: BorderRadius.circular(15)),
+                                image: AssetImage(lst[index]['img']),
+                                fit: BoxFit.fill),
+                            borderRadius: BorderRadius.circular(15)),
                       ),
+                      separador(5),
                       Text(
                         lst[index]['title'],
-                        style: TextStyle(
-                          fontFamily: 'JosefinSans',
+                        style: const TextStyle(
+                            fontFamily: 'JosefinSans',
                             fontSize: 17,
                             color: Colors.white,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         lst[index]['title'],
-                        style: TextStyle(
-                          fontFamily: 'JosefinSans',
+                        style: const TextStyle(
+                            fontFamily: 'JosefinSans',
                             fontSize: 15,
                             color: Colors.white,
                             fontWeight: FontWeight.w600),
@@ -253,24 +255,26 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Container(
                         width: 180,
-                        height: 210,
+                        height: 260,
                         decoration: BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage(lst[index]['img']), fit: BoxFit.fill),
-                           borderRadius: BorderRadius.circular(15)),
+                                image: AssetImage(lst[index]['img']),
+                                fit: BoxFit.fill),
+                            borderRadius: BorderRadius.circular(15)),
                       ),
+                      separador(5),
                       Text(
                         lst[index]['title'],
-                        style: TextStyle(
-                          fontFamily: 'JosefinSans',
+                        style: const TextStyle(
+                            fontFamily: 'JosefinSans',
                             fontSize: 17,
                             color: Colors.white,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         lst[index]['title'],
-                        style: TextStyle(
-                          fontFamily: 'JosefinSans',
+                        style: const TextStyle(
+                            fontFamily: 'JosefinSans',
                             fontSize: 15,
                             color: Colors.white,
                             fontWeight: FontWeight.w600),
